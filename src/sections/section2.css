@@ -1,0 +1,82 @@
+section{
+    overflow-x: hidden;
+}
+
+
+.section-header h2{
+    margin-top:30px;
+    margin-bottom:20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+
+.section-body-head{
+    margin-top:30px;
+    font-size: 1.4rem;
+    font-style:italic;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.section-body-body{
+    margin-top:20px;
+    font-size:1rem;
+    margin-left:30px;
+    margin-right:30px;
+    text-align: center;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+img:hover{
+    opacity:.6;
+}
+
+
+.parallax{
+    background-image: url('../img/text-slider-3.png');
+    height:auto;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.underline {
+    text-decoration: none;
+    position: relative;
+}
+
+.underline:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+    bottom: -4px;
+
+
+    /******
+    optional values below
+    ******/
+
+    /* center - (optional) use with adjusting width   */
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 10%;
+    background: green;
+
+    /* optional animation */
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+
+/* optional hover classes used with anmiation */
+.underline:hover:after {
+    width: 15%;
+    background: orange;
+}

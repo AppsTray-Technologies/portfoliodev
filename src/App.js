@@ -1,27 +1,39 @@
 import React, { Component } from 'react';
-import './App.css';
-import Paticles from 'react-particles-js'
-import {Navbar,Nav,NavItem,NavDropdown,MenuItem,NavbarBrand} from 'react-bootstrap';
 
+import Paticles from 'react-particles-js'
+import CustomNavbar from './navbar/navbar'
+import Section1 from './sections/section1'
+import Section2 from './sections/section2'
+import Section3 from './sections/section3'
+
+import $ from 'jquery'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import './App.css';
 
 
 class App extends Component {
 
+    scrollHandler(){
+        console.log("CLicked");
+
+            var $href = $(this).attr('href');
+            var $anchor = $('#'+$href).offset();
+            window.scrollTo($anchor.left,$anchor.top);
+    }
 
   render() {
     return (
         <div>
-            <div class="mainCanvasBack">
-                <section class="section ">
-                    <Paticles params={particleParams}/>
-                </section>
+
+            <CustomNavbar/>
+            <div style={{backgroundColor:'rgba(0,0,0,0.5)'}}>
+            <section id="home" className="mainCanvasBack">
+                <div style={{backgroundColor:'rgba(0,0,0,.7)'}}><h1>AppStray</h1><Paticles params={particleParams}/></div>
+            </section>
             </div>
-            <div class="section">
-            </div>
-            <div class="section">
-            </div>
-            <div class="section">
-            </div>
+            <Section2 />
+            <Section3/>
+
         </div>
     );
   }
@@ -39,7 +51,7 @@ let particleParams={
                 value_area:800
             }
         },color:{
-            value:"#0083ca"
+            value:"#18253c"
         },shape:{
             type:"circle",
             stroke:{
@@ -49,6 +61,7 @@ let particleParams={
             polygon:{
                 nb_sides:2
             },image:{
+                src:'img/text-slider-3.png',
                 width:100,
                 height:100
             }
@@ -76,8 +89,8 @@ let particleParams={
         line_linked:{
             enable:true,
             distance:100,
-            color:"#fff",
-            opacity:0.8,
+            color:"#0083ca",
+            opacity:1,
             width:1
         },
         move:{

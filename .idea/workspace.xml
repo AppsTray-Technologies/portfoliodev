@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4db2f748-2744-48a7-8262-86ac98f7c356" name="Default" comment="Added Navbar and About Us Section">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/ottawa.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/pres.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/text-slider-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/indextest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/navbar/navbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/navbar/navbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sections/section1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sections/section2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sections/section2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sections/section3.js" />
+    <list default="true" id="4db2f748-2744-48a7-8262-86ac98f7c356" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -397,12 +383,20 @@
       <workItem from="1522472596300" duration="8989000" />
       <workItem from="1522644500334" duration="3841000" />
       <workItem from="1522648706573" duration="17723000" />
-      <workItem from="1522681329589" duration="17580000" />
+      <workItem from="1522681329589" duration="17645000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Navbar and About Us Section">
+      <created>1522699870013</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522699870013</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53239000" />
+    <option name="totallyTimeSpent" value="53304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="-4" width="1315" height="772" extended-state="6" />
